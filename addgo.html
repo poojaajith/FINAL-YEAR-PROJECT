@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+        background-image: url("https://www.digitalservicestoolkit.com/wp-content/uploads/2015/06/Digital-Services.png");}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+    </style>
+</head>
+<body align="center">
+<h2>
+<form action="/req" method="post" enctype="multipart/form-data">
+
+    <b>Choose the requirement file:</b> <input type="file" name="photo"/>
+                <input type="submit" value="Upload"/>
+        </form>
+<p>
+
+</p>
+<li><a href="{{ url_for('first') }}"><b style="color:red"> VIEW FIRST PHASE RESULT</b></a></li>
+</h2>
+</body>
+</html>
