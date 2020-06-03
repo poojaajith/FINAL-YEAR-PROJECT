@@ -1,9 +1,3 @@
 # FINAL-YEAR-PROJECT
 CV ANALYSIS AND PERSONALITY PREDICTION
---------------------------HTML FILES-----------------------------
-fileform2.html - Home page
-add.html      - Admin login
-addgo.html    - requirements input by admin
-first_phase.html  - first phase rank list (based on cv scroe)
-second_phase.html  - cutoff and  personality requirements input by admin
-third_phase.html    - final rank list 
+
