@@ -1,2 +1,3 @@
 XGB MODEL and twitter data extraction code is in second_py2.py
 second_py2.py is imported in second.py and second_py.py is executed
+First phase rank list code(CV Score code) is in checkadmingo.py
