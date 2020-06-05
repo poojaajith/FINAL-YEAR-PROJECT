@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <link href="static/main.css" rel="stylesheet" type="text/css" media="all">
+</head>
+    <body>
+      <h1 style="text-align:center;">GCI <a href="https://codein.withgoogle.com/dashboard/task-instances/6211328603586560/?sp-page=1">TASK</a></h1>
+    	<div class="box">
+  			<h1>Log In</h1>
+  			<form action="/" method="post">
+    			<input type="text" name="username" id="username" placeholder="Username" required/>
+    			<br>
+    			<input type="password" name="password" id="password" placeholder="Password" required/>
+    			<br>
+    			<input type="submit" class="button" value="Log In"/>
+  			</form>
+		</div>
+    <
+    <div class="footer">
+      <h4>Made by <a href="http://www.github.com/PolBaladas">Pol Baladas</a></h4>
+      <h5 style="text-align:center;">Check <a href="https://github.com/PolBaladas/GCI-LoginApp">this Project</a> on Github</h5>
+    </div>
+
+    {%if users%}
+    <div class="users" style="margin-left:20%">
+      <h2>Registered Users List</h2>
+      <table style="width:100%;">
+        {%for user in users%}
+          <tr>
+            <td>{{user[0]}}</td>
+          </tr>
+        {%endfor%}
+      </table>
+    </div>
+    {%endif%}
+</body>
+</html>

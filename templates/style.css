@@ -1,0 +1,110 @@
+html{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#nav {
+    height: 30px;
+}
+
+#logo {
+    height: 33.5px;
+}
+
+.logoblock {
+    width: 550px;
+}
+
+.navblockstitle{
+    font-size: large;
+    width: 550;
+}
+.navblocks {
+    width: 70px;
+}
+
+.line {
+    width: 100%;
+    background-color: crimson;
+    height: 2px;
+}
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.add_rec_body{
+    padding-left: 100px;
+    background-image: url("templates/images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.forms{
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: darksalmon;
+    width: 400px;
+}
+
+.footer{
+    background-color: black;
+    padding-top: -15px;
+    margin-top: -16px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.footericon{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+input[type=text], input[type=password] {
+    padding-left: 10px;
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: darkred;
+    color: floralwhite;
+    font-size: medium;
+  }
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .rec_login_body{
+    padding-left: 100px;
+    background-image: url("images/img2.jpg");
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.form1{
+    background-color: coral;
+    width: 30%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}

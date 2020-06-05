@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIRST PHASE RESULT</title>
+</head>
+<body>
+{%if users%}
+    <div class="users" style="margin-left:20%">
+      <h2>FIRST PHASE RANK LIST</h2>
+      <table style="width:100%;">
+          <tr>
+              <td>RANK</td>
+              <td>NAME</td>
+              <td>EMAIL</td>
+              <td>SCORE</td>
+          </tr>
+        {%for user in users%}
+          <tr>
+            <td>{{user[0]}}</td>
+              <td>{{user[1]}}</td>
+              <td>{{user[2]}}</td>
+              <td>{{user[4]}}</td>
+          </tr>
+        {%endfor%}
+      </table>
+    </div>
+    {%endif%}
+<li><a href="{{ url_for('second') }}"> MOVE ON TO SECOND PHASE </a></li>
+</body>
+</html>
